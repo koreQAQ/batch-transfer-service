@@ -36,9 +36,13 @@ def payer_account() -> dict:
     }
 ```
 ## 启动
-sh startup.sh
+```shell
+sh ./startup.sh
+```
 ## 关闭
-
+```shell
+sh ./shutdown.sh
+```
 ## 优化项
 1. 系统配置项迁移至数据库，或者环境变量
 2. 接收账户余额不足时，发送最低接收资产余额
