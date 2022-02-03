@@ -1,0 +1,2 @@
+py-algorand-sdk==1.9.0
+PyMySQL==1.0.2
