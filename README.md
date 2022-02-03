@@ -36,9 +36,16 @@ def payer_account() -> dict:
     }
 ```
 ## 启动
+### 启动数据库
 ```shell
 sh ./startup.sh
 ```
+### 运行脚本
+```shell
+python ./main.py
+```
+
+
 ## 关闭
 ```shell
 sh ./shutdown.sh

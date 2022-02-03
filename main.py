@@ -1,5 +1,3 @@
-import json
-
 import pymysql
 from algosdk import mnemonic
 from algosdk.future import transaction
@@ -45,7 +43,6 @@ def not_completed_list() -> list[Record]:
     record_list = []
     db = pymysql.connect(host='localhost',
                          user='root',
-                         port=3306,
                          password='123456',
                          database='tiger')
     select_sql = f"""
